@@ -1,0 +1,18 @@
+{
+  "parameters": {
+    "accountName": "sampleacct",
+    "resourceGroupName": "IoTClient",
+    "api-version": "2019-04-26",
+    "subscriptionId": "subid"
+  },
+  "responses": {
+    "200": {
+      "body": {
+        "name": "sampleacct",
+        "location": "uswest",
+        "id": "/subscriptions/subid/resourceGroups/IoTClient/providers/Microsoft.Devices/batchAccounts/sampleacct",
+        "type": "Microsoft.Devices/IoT"
+      }
+    }
+  }
+}
